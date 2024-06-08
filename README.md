@@ -2,7 +2,7 @@
 
 This is a simple Todo application built with React, Redux Toolkit, and Tailwind CSS. It allows users to add, edit, and delete tasks.
 
-  ![example.png](https://github.com/Yogesh-chiluka/Teste/blob/main/reduxToolKitTodoApp.png)
+  ![example.png](https://github.com/Yogesh-chiluka/reduxToolkitTodo/blob/main/reduxToolKitTodoApp.png)
 ## Features
 
 - Add new todos
