@@ -25,7 +25,7 @@ const addTodoHandler = (e) => {
 return(
 
     
-          <form className="flex lg:flex-col flex-row lg:items-center lg:justify-between" onSubmit={addTodoHandler}>
+          <form className="flex flex-col lg:items-center lg:justify-between" onSubmit={addTodoHandler}>
             <div className="flex w-full max-w-xl items-center space-x-2">
 
               
@@ -42,7 +42,7 @@ return(
               ></input>
               <button
                 type="submit"
-                className="w-1/5 w-14 sm:w-auto rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                className="w-1/5 h-10 w-fit text-nowrap sm:w-auto rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
               >Add Todo
               </button>
             </div>

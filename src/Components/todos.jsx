@@ -47,7 +47,7 @@ function Todos(){
                     dispatch(toggleEdit(todo.id)) 
                    }
                 }
-                className="w-1/5 rounded-md bg-green-500/80 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                className="w-1/5  w-fit text-nowrap rounded-md bg-green-500/80 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
                 {todo.isEditing ? 'Save' : 'Edit'}
                 </button>
@@ -57,7 +57,7 @@ function Todos(){
                 onClick={() => dispatch(removeTodo(todo.id))}
                 
             
-                className="w-1/5 rounded-md bg-red-500/80 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                className="w-1/5  w-fit text-nowrap rounded-md bg-red-500/80 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >Delete </button>
             </li>
             
